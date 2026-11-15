@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": null,
+  "framework": null,
+  "redirects": [
+    { "source": "/:path*", "destination": "https://zzz.analytics.moe/:path*", "permanent": true }
+  ]
+}
