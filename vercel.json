@@ -3,6 +3,10 @@
   "buildCommand": null,
   "framework": null,
   "redirects": [
-    { "source": "/:path*", "destination": "https://zzz.analytics.moe/:path*", "permanent": true }
+    {
+      "source": "/:path((?!googlee30fbf8eca1f75f7\\.html$).*)",
+      "destination": "https://zzz.analytics.moe/:path",
+      "permanent": true
+    }
   ]
 }
